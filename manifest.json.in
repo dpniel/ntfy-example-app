@@ -1,0 +1,16 @@
+{
+    "name": "ntfy.dpniel",
+    "description": "notification test",
+    "architecture": "@CLICK_ARCH@",
+    "title": "ntfy",
+    "hooks": {
+        "ntfy": {
+            "apparmor": "ntfy.apparmor",
+            "desktop":  "ntfy.desktop",
+            "push-helper": "ntfy-helper.json"
+        }
+    },
+    "version": "1.0.0",
+    "maintainer": "Dan Chapman <dan@ubports.com>",
+    "framework" : "ubuntu-sdk-15.04.5"
+}
